@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "financial_share_transfer_agencies",
+  "info": {
+    "singularName": "financial-share-transfer-agency",
+    "pluralName": "financial-share-transfer-agencies",
+    "displayName": "Financial/ShareTransferAgency"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "files": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

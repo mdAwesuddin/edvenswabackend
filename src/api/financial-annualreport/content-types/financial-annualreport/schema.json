@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "financial_annualreports",
+  "info": {
+    "singularName": "financial-annualreport",
+    "pluralName": "financial-annualreports",
+    "displayName": "Financial/annualreport"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "files": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

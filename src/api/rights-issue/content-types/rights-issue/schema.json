@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rights_issues",
+  "info": {
+    "singularName": "rights-issue",
+    "pluralName": "rights-issues",
+    "displayName": "RightsIssue"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "files": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

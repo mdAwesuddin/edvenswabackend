@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "financials_share_holder_complaints",
+  "info": {
+    "singularName": "financials-share-holder-complaint",
+    "pluralName": "financials-share-holder-complaints",
+    "displayName": "Financials/ShareHolderComplaint"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "files": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

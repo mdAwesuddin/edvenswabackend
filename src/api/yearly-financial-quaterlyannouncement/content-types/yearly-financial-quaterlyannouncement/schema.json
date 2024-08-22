@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "yearly_financial_quaterlyannouncements",
+  "info": {
+    "singularName": "yearly-financial-quaterlyannouncement",
+    "pluralName": "yearly-financial-quaterlyannouncements",
+    "displayName": "Yearly/Financial/quaterlyannouncement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "startdate": {
+      "type": "date"
+    },
+    "enddate": {
+      "type": "date"
+    },
+    "files": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
